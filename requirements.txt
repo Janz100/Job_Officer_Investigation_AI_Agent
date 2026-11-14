@@ -1,0 +1,15 @@
+
+langchain
+langgraph
+langchain-ollama
+langgraph-checkpoint-sqlite
+ddgs
+requests
+beautifulsoup4
+dnspython
+pydantic
+python-dotenv
+streamlit
+pandas
+matplotlib
+

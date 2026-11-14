@@ -1,0 +1,53 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database and backups
+memory/*.db
+memory/*.db-*
+*.sqlite
+*.sqlite3
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Exclude backup files
+*.before_*
+*.backup
+*_backup.py
+
+# Exclude Python cache
+__pycache__/
+
+# Exclude temporary development scripts
+/fix_*.py
+/patch_*.py
+/inspect_*.py
+/check_*.py
+/show_*.py
+/update_*.py
+
+# Exclude virtual environments
+venv/
+.venv/
+env/
